@@ -1,0 +1,46 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 236, 236);
+}
+#egesz
+{
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 20vh;
+    border-radius: 5%;
+    background-color: white;
+    display: flex;
+}
+#bal
+{
+    background: linear-gradient(to bottom, #7e39ff 0%, #282cff 100%);
+    width: 45%;
+    border-radius: 2vw;
+}
+#kor
+{
+    background: linear-gradient(to bottom, #7e39ff 0%, #282cff 100%);
+    margin: auto;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 5vw;
+}
+#kor h1
+{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    text-align: center;
+    margin: auto;
+    font-size: 2vw;
+    color: white;
+}
+span
+{
+    font-size: 1vw;
+}
+h1, h2
+{
+    text-align: center;
+}
