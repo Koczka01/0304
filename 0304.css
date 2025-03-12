@@ -29,18 +29,97 @@ html, body
 }
 #kor h1
 {
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    padding-top: 2vw;
     text-align: center;
     margin: auto;
-    font-size: 2vw;
+    font-size: 4vw;
     color: white;
+}
+#kor h2
+{
+    margin: 0;
+    font-size: 1vw;
+    color: rgb(112, 112, 112);
 }
 span
 {
     font-size: 1vw;
+    padding-bottom: 1vw;
 }
 h1, h2
 {
     text-align: center;
+}
+#bal p
+{
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    color: white;
+}
+#bal h1, #bal h2
+{
+    color: white;
+}
+#jobb
+{
+    margin-left: 2.5vw;
+}
+#jobb p
+{
+    display: inline-block;
+    margin-top: 0.75vw;
+    width: 15vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    padding-bottom: 0;
+    
+}
+#r
+{
+    background-color: rgba(255, 0, 0, 0.15);
+}
+#m
+{
+    background-color: rgba(255, 166, 0, 0.15);
+}
+#ve
+{
+    background-color: rgba(64, 224, 208, 0.15);
+}
+#vi
+{
+    background-color: rgba(0, 0, 255, 0.15);
+}
+#jobb h1
+{
+    text-align: left;
+}
+.igen
+{
+    float: right;
+}
+.kep
+{
+    padding-right: 1vw;
+    vertical-align: text-bottom;
+}
+button
+{
+    width: 100%;
+}
+@media screen and (max-width: 800px)
+{
+    #egesz
+    {
+        display: block;
+    }
+    #bal
+    {
+        width: 100%;
+    }
+    #jobb
+    {
+        width: 100%;
+    }
 }
