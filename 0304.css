@@ -68,7 +68,7 @@ h1, h2
 #jobb p
 {
     display: inline-block;
-    margin-top: 0.75vw;
+    margin-top: 0.5vw;
     width: 15vw;
     padding: 1vw;
     border-radius: 1vw;
@@ -78,18 +78,22 @@ h1, h2
 #r
 {
     background-color: rgba(255, 0, 0, 0.15);
+    color: red;
 }
 #m
 {
     background-color: rgba(255, 166, 0, 0.15);
+    color: orange;
 }
 #ve
 {
     background-color: rgba(64, 224, 208, 0.15);
+    color: turquoise;
 }
 #vi
 {
     background-color: rgba(0, 0, 255, 0.15);
+    color: blue;
 }
 #jobb h1
 {
@@ -107,19 +111,81 @@ h1, h2
 button
 {
     width: 100%;
+    border-radius: 5vw;
+    height: 10%;
+    background-color: #34283d;
+    border: solid 0px;
+    color: white;
+}
+#szaz, #szaz2, #szaz3, #szaz4
+{
+    color: gray;
+}
+#nemszaz, #nemszaz2, #nemszaz3, #nemszaz4
+{
+    color: black;
+}
+.nemszaz
+{
+    color: black;
 }
 @media screen and (max-width: 800px)
 {
     #egesz
     {
         display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
     }
     #bal
     {
         width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        padding-bottom: 1vw;
+    }
+    #bal h1
+    {
+        margin-top: 0;
     }
     #jobb
     {
         width: 100%;
+    }
+    #jobb p
+    {
+        width: 80%;
+        height: 7vw;
+        margin-top: 2.5vw;
+        font-size: 4vw;
+        margin-left: 6%;
+        float: left;
+    }
+    #kor
+    {
+        width: 25vw;
+        height: 25vw;
+        border-radius: 12vw;
+    }
+    #kor h1
+    {
+        padding-top: 5vw;
+        font-size: 10vw;
+    }
+    #kor h2
+    {
+        font-size: 2.5vw;
+    }
+    button
+    {
+        width: 82%;
+        height: 7vw;
+        margin-left: 6%;
+    }
+    span
+    {
+        font-size: 4vw;
+        color: black;
     }
 }
